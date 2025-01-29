@@ -2,7 +2,7 @@
 You are tasked with creating an Intelligent Assistant for a technical domain (e.g., legal, manufacturing etc.). The system should: 1. Retrieve relevant documents or snippets based on user queries. 2. Generate concise, accurate, and domain-specific responses using a locally hosted small language model. 
 
 --- 
-### Working:
+### Working: Refer https://github.com/agasheaditya/siemens-rag-bot/blob/main/notebooks/P1.ipynb
 _The code is to build a working simple RAG based chat system which can be later utilised to create an end to end application. Here we are using manufacturing data from "data" folder in PDF format to read some documentations. 
 We have used that data and reading it page wise and then saving the documents into semantics chunks in the vector DB [chroma DB]. 
 Code will use sentence transformer to find out similar meaning sentences and then split/chunk it based on the meaning break or change in semantics of the sentence. 
