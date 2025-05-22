@@ -70,3 +70,5 @@ virtualenv env
 pip install -r requirements.txt
 ```
 ---
+
+Once ready, you can run this notebook: https://github.com/agasheaditya/siemens-rag-bot/blob/main/siemens-energy/notebooks/P1.ipynb
